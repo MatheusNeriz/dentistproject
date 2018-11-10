@@ -2,3 +2,50 @@
     margin: 0px;
     padding: 0px;
 }
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+
+nav li {
+    padding: 30px 30px;
+    list-style: none;
+   
+}
+
+.header-buttom:hover {
+    background-color: #000;
+}
+
+.header-buttom {
+    transition: 0.5s;
+}
+
+.bloco{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    margin-top: 450px;
+    
+}
+.blocop{
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px rgb(255, 255, 255);
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
+.change:hover {
+    color: red;
+}
+
+.change {
+    background-color: #000;
+    color: red;
+}
+
+
